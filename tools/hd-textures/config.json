@@ -1,0 +1,46 @@
+{
+  "_comment": "Paths may be absolute or relative to this file. See README.md for every option.",
+
+  "game_base": "H:/SteamLibrary/steamapps/common/Jedi Academy/GameData/base",
+  "work_dir": "H:/SteamLibrary/steamapps/common/Jedi Academy/hd-textures",
+  "pk3_glob": "assets*.pk3",
+  "extensions": [".jpg", ".tga", ".png"],
+
+  "model": "4x_NMKD-Siax_200k",
+  "model_overrides": [],
+  "gpu_id": "auto",
+  "tile_size": 0,
+  "batch_size": 64,
+  "workers": 0,
+
+  "scales": [4, 2],
+  "max_side": 2048,
+  "skip_if_max_side_ge": 1024,
+  "min_side": 16,
+  "min_pixels": 1024,
+  "skip_flat_stddev": 1.0,
+
+  "skip_patterns": [
+    "fonts/*",
+    "video/*",
+    "*lightmap*",
+    "maps/*",
+    "gfx/2d/charsgrid*",
+    "gfx/colors/*"
+  ],
+  "force_include_patterns": [],
+
+  "wrap_pad_patterns": ["textures/*"],
+  "edge_pad_patterns": ["textures/skies/*", "textures/*sky*"],
+  "pad_px": 16,
+
+  "alpha_filter": "lanczos",
+  "alpha_bleed": true,
+
+  "jpg_quality": 95,
+  "jpg_subsampling": "4:4:4",
+  "png_compress_level": 6,
+
+  "pk3_name": "zz_hd_textures.pk3",
+  "pk3_split_mb": 1800
+}

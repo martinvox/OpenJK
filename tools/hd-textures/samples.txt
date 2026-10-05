@@ -1,0 +1,28 @@
+# Representative textures for model comparison (hdtex.py compare)
+# walls / floors
+textures/kejim/floor02.jpg
+textures/yavin/bblock3.jpg
+textures/imperial/basic.jpg
+textures/taspir/128_128rust.jpg
+textures/kejim/basepanel04.jpg
+# characters
+models/players/jan/face.jpg
+models/players/luke/face.jpg
+models/players/stormtrooper/helmet.jpg
+# saber hilt
+models/weapons2/saber/saber.jpg
+# effects (alpha + additive)
+gfx/effects/sabers/blue_glow2.jpg
+gfx/effects/alpha_smoke.tga
+gfx/effects/blaster_blob.tga
+textures/flares/flare_ring2.png
+gfx/damage/saberburnmark2.tga
+# foliage / glass with alpha
+textures/yavin/groundplants.png
+models/map_objects/yavin/grass.png
+models/map_objects/yavin/tree05_vines.png
+textures/common/sglass1.png
+# HUD / menu
+gfx/hud/armor_tic_1.tga
+gfx/menus/cursor1.tga
+gfx/2d/battery.tga
