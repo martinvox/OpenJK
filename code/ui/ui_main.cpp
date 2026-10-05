@@ -3506,7 +3506,7 @@ static void UI_Update(const char *name)
 				Cvar_SetValue( "ui_r_colorbits", 32 );
 				Cvar_SetValue( "ui_r_depthbits", 24 );
 				Cvar_SetValue( "ui_r_picmip", 0 );
-				Cvar_SetValue( "ui_r_mode", 4 );
+				Cvar_SetValue( "ui_r_mode", -2 );
 				Cvar_SetValue( "ui_r_texturebits", 32 );
 				Cvar_SetValue( "ui_r_fastSky", 0 );
 				Cvar_SetValue( "ui_r_inGameVideo", 1 );

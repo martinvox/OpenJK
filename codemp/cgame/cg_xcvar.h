@@ -86,7 +86,7 @@ XCVAR_DEF( cg_fallingBob,						"1",					NULL,					CVAR_ARCHIVE )
 XCVAR_DEF( cg_footsteps,						"3",					NULL,					CVAR_ARCHIVE )
 XCVAR_DEF( cg_forceModel,						"0",					CG_ForceModelChange,	CVAR_ARCHIVE )
 XCVAR_DEF( cg_fov,								"80",					NULL,					CVAR_ARCHIVE )
-XCVAR_DEF( cg_fovAspectAdjust,					"0",					NULL,					CVAR_ARCHIVE )
+XCVAR_DEF( cg_fovAspectAdjust,					"1",					NULL,					CVAR_ARCHIVE )
 XCVAR_DEF( cg_fovViewmodel,						"0",					NULL,					CVAR_ARCHIVE )
 XCVAR_DEF( cg_fovViewmodelAdjust,				"1",					NULL,					CVAR_ARCHIVE )
 #if 0

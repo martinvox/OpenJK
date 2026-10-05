@@ -4743,7 +4743,7 @@ static void UI_Update(const char *name) {
 			trap->Cvar_SetValue( "ui_r_colorbits", 32 );
 			trap->Cvar_SetValue( "ui_r_depthbits", 24 );
 			trap->Cvar_SetValue( "ui_r_picmip", 0 );
-			trap->Cvar_SetValue( "ui_r_mode", 4 );
+			trap->Cvar_SetValue( "ui_r_mode", -2 );
 			trap->Cvar_SetValue( "ui_r_texturebits", 32 );
 			trap->Cvar_SetValue( "ui_r_fastSky", 0 );
 			trap->Cvar_SetValue( "ui_r_inGameVideo", 1 );
