@@ -7,7 +7,9 @@
   "extensions": [".jpg", ".tga", ".png"],
 
   "model": "4x_NMKD-Siax_200k",
-  "model_overrides": [],
+  "model_overrides": [
+    { "pattern": "gfx/*", "model": "RealESRGAN_General_WDN_x4_v3" }
+  ],
   "gpu_id": "auto",
   "tile_size": 0,
   "batch_size": 64,
