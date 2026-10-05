@@ -48,12 +48,15 @@ Other commands:
 
 ## In-game settings
 
-Set these in the console or in `jaconfig.cfg`/`jampconfig.cfg`:
+OpenJK reads its config from `Documents/My Games/OpenJK/base/openjk_sp.cfg` (SP)
+or `openjk.cfg` (MP), not the `jaconfig.cfg`/`jampconfig.cfg` in `GameData/base`.
+OpenJK's defaults are already fine, but check these:
 
-- `r_picmip 0`: the default `1` halves every texture, which throws away most of the gain.
-- `r_ext_compress_textures 1` (default): uses DXT compression, keeping VRAM use
-  reasonable with 2048² textures. Set it to `0` for maximum quality if you have VRAM to spare.
-- `r_texturebits 32` (optional).
+- `r_picmip 0`: `1` halves every texture, which throws away most of the gain.
+- `r_ext_compress_textures 0`: uncompressed gives the best quality and needs
+  more VRAM. Set it to `1` (DXT) if VRAM runs out.
+- `r_texturebits 32`, `r_textureMode GL_LINEAR_MIPMAP_LINEAR`,
+  `r_ext_texture_filter_anisotropic 16`.
 
 ## Multiplayer
 
